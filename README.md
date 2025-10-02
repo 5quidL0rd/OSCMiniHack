@@ -64,24 +64,29 @@ python start_feelink.py
 ### Linux/macOS Setup
 
 ```bash
-# 1. Clone your fork
+# 1. Clone the repository
 git clone https://github.com/5quidL0rd/OSCMiniHack.git
 cd OSCMiniHack
 
-# 2. Create and activate Python virtual environment
+# 2. Create and activate a Python virtual environment
 python3 -m venv venv
 source venv/bin/activate
 
-# 3. Install backend dependencies
-pip install -r backend/requirements.txt
+# 3. Install Python dependencies individually
+pip install flask
+pip install flask-cors
+pip install numpy
+pip install scikit-learn
+pip install opencv-python
 
-# 4. Install frontend dependencies
+# 4. Install Node.js frontend dependencies
 cd frontend
 npm install --legacy-peer-deps
 cd ..
 
-# 5. Run FeeLink (Simple & Reliable)
+# 5. Run FeeLink
 python3 start_simple.py
+
 
 
 ```

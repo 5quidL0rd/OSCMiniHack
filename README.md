@@ -4,6 +4,15 @@
 
 Run FeeLink (choose one option)
 
+## Example Usage
+
+Here are some example screenshots of FeeLink in action:
+
+![Example 1](assets/screenshots/Screenshot 2025-10-02 192215.png)
+![Example 2](assets/screenshots/Screenshot 2025-10-02 192249.png)
+![Example 3](assets/screenshots/Screenshot 2025-10-02 192352.png)
+
+
 # Option 1: Simple & Reliable (Recommended)
 python3 start_simple.py
 

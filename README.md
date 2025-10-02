@@ -2,7 +2,7 @@
 
 # 🚀 FeeLink: Emotion-Aware P2P Communication System
 
-**F# 4. Run FeeLink (choose one option)
+Run FeeLink (choose one option)
 
 # Option 1: Simple & Reliable (Recommended)
 python3 start_simple.py

@@ -64,24 +64,16 @@ python start_feelink.py
 ### Linux/macOS Setup
 
 ```bash
-# 1. Clone the repository
-git clone https://github.com/your-username/feelink.git
-cd feelink
-
-# 2. Create Python virtual environment
+git clone https://github.com/5quidL0rd/OSCMiniHack.git
+cd OSCMiniHack
 python3 -m venv venv
 source venv/bin/activate
-
-# 3. Install Python dependencies
-pip install flask opencv-python scikit-learn flask-cors
-
-# 4. Run FeeLink (choose one option)
-
-# Option 1: Simple & Reliable (Recommended)
+pip install -r backend/requirements.txt
+cd frontend
+npm install
+cd ..
 python3 start_simple.py
 
-# Option 2: Full Featured (with dependency checking)
-python3 start_feelink.py
 ```
 
 ### 🌐 Access the Application

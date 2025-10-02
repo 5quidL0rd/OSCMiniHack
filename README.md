@@ -73,6 +73,7 @@ python3 -m venv venv
 source venv/bin/activate
 
 # 3. Install Python dependencies individually
+pip install -r backend/requirements.txt
 pip install flask
 pip install flask-cors
 pip install numpy

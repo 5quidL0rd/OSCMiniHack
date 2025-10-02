@@ -8,10 +8,9 @@ Run FeeLink (choose one option)
 
 Here are some example screenshots of FeeLink in action:
 
-![Example 1](Screenshot 2025-10-02 192215.png)
-![Example 2](Screenshot 2025-10-02 192249.png)
-![Example 3](Screenshot 2025-10-02 192352.png)
-
+![Example 1](Example%20Run/Screenshot%202025-10-02%20192215.png)
+![Example 2](Example%20Run/Screenshot%202025-10-02%20192249.png)
+![Example 3](Example%20Run/Screenshot%202025-10-02%20192352.png)
 
 # Option 1: Simple & Reliable (Recommended)
 python3 start_simple.py
